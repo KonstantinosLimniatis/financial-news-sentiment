@@ -99,10 +99,10 @@ python src/plot_scatter.py
 python src/plot_hit_rate.py
 python src/plot_equity.py
 
-
 Saved under:
-
 figures/
+
+In the screenshots folder there are photos from the frontend!
 
 🧑‍💻 Author
 
