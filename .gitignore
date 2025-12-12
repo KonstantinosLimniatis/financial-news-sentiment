@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Data (do not commit datasets)
+data/raw/
+data/processed/
+
+# Models
+models/*.pkl
+
+# Environment variables
+.env
+
+# Streamlit
+.streamlit/
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
