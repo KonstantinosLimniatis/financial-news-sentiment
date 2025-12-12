@@ -46,46 +46,6 @@ This is a **feature, not a bug**.
 
 ---
 
-## 🗂️ Project Structure
-
-
-financial-news-sentiment/
-│
-├── app.py # Streamlit frontend (demo UI)
-├── run.py # CLI pipeline runner
-├── requirements.txt
-├── models/
-│ ├── logistic_model.pkl # Historical model
-│ └── logistic_live.pkl # Live signal model
-│
-├── data/
-│ ├── raw/
-│ │ └── TICKER/
-│ │ ├── news.csv
-│ │ └── prices.csv
-│ └── processed/
-│ └── TICKER/
-│ ├── news_scored.csv
-│ ├── events.csv
-│ └── events_features.csv
-│
-├── figures/ # Generated plots
-│
-└── src/
-├── fetch_news_gdelt.py
-├── sentiment_finbert.py
-├── fetch_prices.py
-├── build_events.py
-├── feature_engineering.py
-├── train_model_v2.py
-├── train_live_model.py
-├── live_features.py
-├── live_signal.py
-└── plotting scripts
-
-
----
-
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
